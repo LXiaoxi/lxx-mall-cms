@@ -1,0 +1,48 @@
+<template>
+  <div class="pei-echarts">
+    <base-echart :options="options"></base-echart>
+  </div>
+</template>
+
+<script lang="ts" setup>
+  import {defineProps,computed} from 'vue'
+  import {IDataType} from '@/components/page-echarts/typs/type'
+  //组件不用注册
+  import BaseEchart from '@/base-ui/echart'
+  //接收属性
+  const props=defineProps<{
+    pieData:IDataType[]
+  }>()
+  const options=computed(()=>{
+    return{
+
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        orient: 'horizontal',
+        left: 'left'
+      },
+      series: [
+        {
+          name: 'Access From',
+          type: 'pie',
+          radius: '50%',
+          data: props.pieData,
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+          }
+        }
+      ]
+    }
+  })
+</script>
+
+<style lang="less">
+
+
+</style>
