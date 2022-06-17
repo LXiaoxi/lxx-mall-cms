@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_ts_cms"]=self["webpackChunkvue_ts_cms"]||[]).push([[431],{3431:function(n,s,t){t.r(s),t.d(s,{default:function(){return v}});var e=t(3396);const u={class:"list"},r=(0,e._)("h2",null,"页面正在努力开发中~",-1),c=[r];function a(n,s,t,r,a,i){return(0,e.wg)(),(0,e.iD)("div",u,c)}var i=(0,e.aZ)({name:"list",setup(){return{}}}),l=t(89);const f=(0,l.Z)(i,[["render",a]]);var v=f}}]);
+//# sourceMappingURL=431.51000852.js.map

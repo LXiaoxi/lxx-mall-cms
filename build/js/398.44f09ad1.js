@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_ts_cms"]=self["webpackChunkvue_ts_cms"]||[]).push([[398],{5398:function(e,n,t){t.r(n),t.d(n,{default:function(){return l}});var r=t(3396);const u={class:"department"},s=(0,r._)("h2",null,"页面正在努力开发中~",-1),a=[s];function c(e,n,t,s,c,d){return(0,r.wg)(),(0,r.iD)("div",u,a)}var d=(0,r.aZ)({name:"department",setup(){return{}}}),f=t(89);const i=(0,f.Z)(d,[["render",c]]);var l=i}}]);
+//# sourceMappingURL=398.44f09ad1.js.map
