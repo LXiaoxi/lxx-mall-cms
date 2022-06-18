@@ -16,12 +16,12 @@ module.exports = defineConfig({
   devServer:{
     //解决跨域访问
     proxy:{
-      '^/api':{
-        target:'http://152.136.185.210:4000',
-        pathRewrite:{
-          '^/api':''
+      '^/api': {
+        target: 'http://152.136.185.210:8000',
+        pathRewrite: {
+          '^/api': ''
         },
-        changeOrigin:true
+        changeOrigin: true
       }
     },
     // open:true,
