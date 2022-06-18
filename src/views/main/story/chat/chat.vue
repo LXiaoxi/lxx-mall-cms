@@ -12,13 +12,13 @@ export default defineComponent({
   name: 'chat',
   setup() {
     const store=useStore()
-    store.dispatch('CharModule/getData',{
-      pageName:'/moment/',
-      pageInfo:{
-        offset:0,
-        size:10
-      }
-    })
+    // store.dispatch('CharModule/getData',{
+    //   pageName:'/moment/',
+    //   pageInfo:{
+    //     offset:0,
+    //     size:10
+    //   }
+    // })
 
     return {}
   }
