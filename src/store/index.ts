@@ -5,7 +5,7 @@ import {IRootStore,IStoreType} from '@/store/type'
 import  LoginModule  from './login/login'
 import SystemModule from '@/store/main/system/system'
 import DashModule from '@/store/main/analysis/dashboard'
-import CharModule from '@/store/main/story/chat/chat'
+//import CharModule from '@/store/main/story/chat/chat'
 //导入数据请求模块
 import {getpagelistData} from '@/service/mian/system/system'
 const store = createStore<IRootStore>({
@@ -59,7 +59,7 @@ const store = createStore<IRootStore>({
     LoginModule,
     SystemModule,
     DashModule,
-    CharModule
+    //CharModule
   }
 })
 export function setupStore() {

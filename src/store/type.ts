@@ -1,7 +1,7 @@
 import {ILoginStore} from './login/type'
 import { ISystemStore } from '@/store/main/system/type'
 import { IDashStore } from '@/store/main/analysis/type'
-import { IChatStore } from '@/store/main/story/chat/type'
+// import { IChatStore } from '@/store/main/story/chat/type'
 export interface IRootStore {
   //整个部门
   entireDepartment:any[],
@@ -15,7 +15,7 @@ export interface IRootWiyhModule {
   LoginModule:ILoginStore
   SystemModule:ISystemStore
   DashModule:IDashStore
-  CharModule:IChatStore
+  // CharModule:IChatStore
 }
 
 export type IStoreType = IRootWiyhModule & IRootStore
