@@ -7,11 +7,10 @@ const xxRequest = new XXRequest({
   timeout:TIME_OUT,
   interceptors:{
 
-    requestInterceptor:(config)=>{
+    requestInterceptor:(config:any)=>{
       //先获取token
       const token=localCache.getCache('token')
       if (token) {
-        // @ts-ignore
         config.headers.Authorization = `Bearer ${token}`
       }
       else{
