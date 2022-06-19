@@ -5,10 +5,10 @@ if (process.env.NODE_ENV==='development'){
   BASE_URL='/api'
   console.log(BASE_URL)
 }else if (process.env.NODE_ENV==='production'){
-  BASE_URL='/api'
+  BASE_URL='http://152.136.185.210:5000'
   console.log(BASE_URL)
 
 }else {
-  BASE_URL='/api'
+  BASE_URL='http://152.136.185.210:5000'
 }
 export {BASE_URL,TIME_OUT}
