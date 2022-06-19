@@ -1,8 +1,8 @@
 const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
 module.exports = defineConfig({
-  transpileDependencies: true,
-  lintOnSave:false,
+  // transpileDependencies: true,
+  // lintOnSave:false,
   outputDir: './build',
   configureWebpack: {
     resolve: {
@@ -16,10 +16,10 @@ module.exports = defineConfig({
   devServer:{
     //解决跨域访问
     proxy:{
-      '/api': {
+      '^/api': {
         target: 'http://152.136.185.210:8000',
         pathRewrite: {
-          '/api': ''
+          '^/api': ''
         },
         changeOrigin: true
       }
