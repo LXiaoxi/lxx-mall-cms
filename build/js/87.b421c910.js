@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_ts_cms"]=self["webpackChunkvue_ts_cms"]||[]).push([[87],{3087:function(n,t,e){e.r(t),e.d(t,{default:function(){return o}});var u=e(3396);const s={class:"chat"},c=(0,u._)("h2",null,"页面正在努力开发中~",-1),r=[c];function a(n,t,e,c,a,f){return(0,u.wg)(),(0,u.iD)("div",s,r)}var f=e(562),h=(0,u.aZ)({name:"chat",setup(){(0,f.oR)();return{}}}),i=e(89);const l=(0,i.Z)(h,[["render",a]]);var o=l}}]);
+//# sourceMappingURL=87.b421c910.js.map
