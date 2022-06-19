@@ -48,6 +48,7 @@ const LoginModule:Module<ILoginStore,IRootStore>={
     async accountLoginAction({commit,dispatch},payload:IAccount){
       //实现登录逻辑
       const loginResult=await accountLoginRequest(payload)
+      console.log(loginResult)
       const {id,token}=loginResult.data
       commit('changetoken',token)
       localCache.setCache('token',token)
